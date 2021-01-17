@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584423010930",
+    "project_id": "blacksurvivalfooddata",
+    "storage_bucket": "blacksurvivalfooddata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584423010930:android:b961291fad0ea8a710c8eb",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584423010930-gdvmkt3neltm2ikj1i6em1enpmjfaet8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNIU1RkTtWH7OeSUggSk_CyZePv4I0pB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584423010930-gdvmkt3neltm2ikj1i6em1enpmjfaet8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

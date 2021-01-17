@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/iv_first_food"
+            android:src="@drawable/bread" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="음식1"
+            android:id="@+id/tv_first_food_name"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="회복량1"
+            android:textStyle="bold"
+            android:id="@+id/tv_first_food_heal"
+            android:gravity="center"
+            android:layout_marginTop="125dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="120dp"
+        android:text="+"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginLeft="110dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="150dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/iv_second_food"
+            android:src="@drawable/meat"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="음식2"
+            android:id="@+id/tv_second_food_name"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="회복량2"
+            android:textStyle="bold"
+            android:id="@+id/tv_second_food_heal"
+            android:gravity="center"
+            android:layout_marginTop="125dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="120dp"
+        android:text="="
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginLeft="260dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="295dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/iv_final_food"
+            android:src="@drawable/hamberger"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="음식3"
+            android:id="@+id/tv_final_food_name"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="회복량3"
+            android:textStyle="bold"
+            android:id="@+id/tv_final_food_heal"
+            android:gravity="center"
+            android:layout_marginTop="125dp"/>
+    </FrameLayout>
+
+
+
+</FrameLayout>
